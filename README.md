@@ -1,0 +1,1 @@
+# daikifutsal026-hash.github.io
