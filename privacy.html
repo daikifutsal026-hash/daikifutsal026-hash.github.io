@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | discord-notifier</title>
+<style>
+  body { max-width: 40rem; margin: 3rem auto; padding: 0 1.25rem; font-family: sans-serif; line-height: 1.8; color: #222; }
+</style>
+</head>
+<body>
+<h1>プライバシーポリシー</h1>
+<p>discord-notifier は、運営者本人が自分のアカウントのデータだけを扱う個人用ツールです。</p>
+
+<h2>読み取るデータ</h2>
+<ul>
+  <li>Googleカレンダーの予定(読み取り専用)</li>
+  <li>Google Tasks のタスク(読み取り専用)</li>
+  <li>Gmail のメール(読み取り専用)</li>
+  <li>運営者が指定した Discord チャンネルの投稿</li>
+</ul>
+
+<h2>利用目的</h2>
+<p>翌日の予定と当日のTODOをまとめ、運営者本人の Discord DM へ通知するためだけに利用します。広告には利用せず、販売もしません。</p>
+
+<h2>データの送信先</h2>
+<ul>
+  <li>GitHub Actions: 通知処理の実行環境です。</li>
+  <li>Anthropic API: メールと Discord 投稿の本文の一部を送信し、予定とTODOを抽出します。</li>
+  <li>Discord: 作成した通知を運営者本人の DM へ送信します。</li>
+</ul>
+
+<h2>データの保存</h2>
+<p>本ツールは読み取った内容をデータベースやファイルに保存しません。実行ログには件数だけを記録します。送信先の各サービスでの取り扱いは、それぞれのポリシーに従います。</p>
+
+<h2>Google ユーザーデータの取り扱い</h2>
+<p>Google API から取得した情報の利用と転送は、Limited Use の要件を含む <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API サービスのユーザーデータに関するポリシー</a>に従います。</p>
+
+<h2>アクセス権の取り消し</h2>
+<p>Google へのアクセス権は、<a href="https://myaccount.google.com/permissions">Google アカウントの設定</a>からいつでも取り消せます。</p>
+
+<h2>お問い合わせ</h2>
+<p>このページを公開している GitHub リポジトリの Issues からご連絡ください。</p>
+</body>
+</html>
